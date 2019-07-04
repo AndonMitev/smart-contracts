@@ -8,7 +8,7 @@ var RejectingRecipient = artifacts.require("./RejectingRecipient.sol");
 
 module.exports = function(deployer, network) {
 
-  if (network.startsWith('develop') == false) return;
+  if (network.startsWith('mainnet') == true) return;
 
   deployer.link(TokenStorageLib, StandardController);
   deployer.link(ERC20Lib, StandardController);

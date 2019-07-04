@@ -1581,7 +1581,58 @@
     "name": "solc",
     "version": "0.4.24+commit.e67f0147.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "4": {
+      "events": {
+        "0xfff3b3844276f57024e0b42afec1a37f75db36511e43819a4f2a63ab7862b648": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "Recovered",
+          "type": "event"
+        },
+        "0x5228715db99b8f1da4dfd674224fa5f9c26b00f68a1bd3020f87a25724119bea": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "old",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "current",
+              "type": "address"
+            }
+          ],
+          "name": "Validator",
+          "type": "event"
+        }
+      },
+      "links": {
+        "SmartTokenLib": "0xe48ebae412945ac78a7519451dff642db271b41a",
+        "ERC20Lib": "0x47db75f3d5a0c277f73d9da5e23ea1161162fe01",
+        "ERC677Lib": "0xc4654454994adfaebd5a943b03ad9c9efdde7f9c"
+      },
+      "address": "0x3e520a609c658f713c0e6ceec854200ef41ddb89",
+      "transactionHash": "0x27725f9e29b4bcfc1381508c436373fd0456d127b5a392ed5beec9f73f56e5c5"
+    }
+  },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2019-06-28T20:05:19.274Z"
+  "updatedAt": "2019-07-01T09:53:52.374Z"
 }

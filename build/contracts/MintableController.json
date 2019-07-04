@@ -3926,7 +3926,17 @@
     "name": "solc",
     "version": "0.4.24+commit.e67f0147.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "4": {
+      "events": {},
+      "links": {
+        "ERC20Lib": "0x47db75f3d5a0c277f73d9da5e23ea1161162fe01",
+        "ERC677Lib": "0xc4654454994adfaebd5a943b03ad9c9efdde7f9c"
+      },
+      "address": "0x60b5a74f3077528afeb0e0371ffd3258468677cb",
+      "transactionHash": "0xd1f33f85747d7ca3fae7b518444d3d3f35cc60e460c8a878aede58c5d640c18a"
+    }
+  },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2019-06-28T20:02:04.097Z"
+  "updatedAt": "2019-07-01T09:49:37.907Z"
 }

@@ -9,7 +9,7 @@ var ERC677Lib = artifacts.require("./ERC677Lib.sol");
 
 module.exports = function(deployer, network) {
 
-  if (network.startsWith('develop') == false) return;
+  if (network.startsWith('mainnet') == true) return;
 
   deployer.link(TokenStorageLib, ConstantSmartController);
   deployer.link(SmartTokenLib, ConstantSmartController);
