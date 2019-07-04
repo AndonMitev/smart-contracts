@@ -1582,6 +1582,56 @@
     "version": "0.4.24+commit.e67f0147.Emscripten.clang"
   },
   "networks": {
+    "3": {
+      "events": {
+        "0xfff3b3844276f57024e0b42afec1a37f75db36511e43819a4f2a63ab7862b648": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "Recovered",
+          "type": "event"
+        },
+        "0x5228715db99b8f1da4dfd674224fa5f9c26b00f68a1bd3020f87a25724119bea": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "old",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "current",
+              "type": "address"
+            }
+          ],
+          "name": "Validator",
+          "type": "event"
+        }
+      },
+      "links": {
+        "SmartTokenLib": "0x0b1130d591b6651fcfcdfe119a23c43e0a412554",
+        "ERC20Lib": "0xe7708e44eef5eac6db767c7835629a2f0510ce2a",
+        "ERC677Lib": "0xb375dd49a72a4071428b102a59f45895b7e63e14"
+      },
+      "address": "0x39a64c10f442810fe147b619e72b1207c8aec0b1",
+      "transactionHash": "0x2a5e92a78e747ae96fb6b7f3bd3dc1d566c0b51326e05245e6c6d26e398f6461"
+    },
     "4": {
       "events": {
         "0xfff3b3844276f57024e0b42afec1a37f75db36511e43819a4f2a63ab7862b648": {
@@ -1634,5 +1684,5 @@
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2019-07-01T09:53:52.374Z"
+  "updatedAt": "2019-07-04T00:20:26.479Z"
 }

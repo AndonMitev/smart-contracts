@@ -3927,6 +3927,15 @@
     "version": "0.4.24+commit.e67f0147.Emscripten.clang"
   },
   "networks": {
+    "3": {
+      "events": {},
+      "links": {
+        "ERC20Lib": "0xe7708e44eef5eac6db767c7835629a2f0510ce2a",
+        "ERC677Lib": "0xb375dd49a72a4071428b102a59f45895b7e63e14"
+      },
+      "address": "0x407b7141ceb15c02fa661d444a603feaa5969289",
+      "transactionHash": "0xb1e76ffda1aec7d1b9ae69e6aa38ceb4b40f979c123354105554d3b7711c3672"
+    },
     "4": {
       "events": {},
       "links": {
@@ -3938,5 +3947,5 @@
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2019-07-01T09:49:37.907Z"
+  "updatedAt": "2019-07-04T00:13:34.620Z"
 }
